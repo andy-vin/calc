@@ -51,3 +51,5 @@ group :production do
   gem 'pg', '0.18.2'
   gem 'rails_12factor', '0.0.3'
 end
+# Use Simple Form. See more: https://github.com/plataformatec/simple_form
+gem 'simple_form'
