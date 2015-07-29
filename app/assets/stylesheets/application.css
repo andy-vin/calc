@@ -1,15 +1,208 @@
 /*
- * This is a manifest file that'll be compiled into application.css, which will include all the files
- * listed below.
- *
- * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
- * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
- *
- * You're free to add application-wide styles to this file and they'll appear at the bottom of the
- * compiled file so the styles you add here take precedence over styles defined in any styles
- * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
- * file per style scope.
- *
- *= require_tree .
+ * This is a manifest file that'll automatically include all the stylesheets available in this directory
+ * and any sub-directories. You're free to add application-wide styles to this file and they'll appear at
+ * the top of the compiled file, but it's generally better to create a new file per style scope.
  *= require_self
- */
+ *= require bootstrap.min
+ *= require bootstrap_and_overrides
+ *= require bootstrap-theme.min
+ *= require_tree .
+*/
+
+@font-face {
+    font-family: 'Glyphicons Halflings';
+    src: url('../assets/glyphicons-halflings-regular.eot');
+    src: url('../assets/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'),
+    url('../assets/glyphicons-halflings-regular.woff') format('woff'),
+    url('../assets/glyphicons-halflings-regular.ttf') format('truetype'),
+    url('../assets/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+}
+/*Begin
+        Get consult block*/
+.fix_get{
+    line-height: 5em;
+    margin: 0 auto;
+
+}
+.fix_get > a:hover, a:focus{
+    text-decoration: none !important;
+    color: #B9520E !important;
+    font-weight: bold;
+    line-height: 4.9em;
+}
+.fix_get > a{
+    color: #B9520E !important;
+}
+/*End*/
+/*Begin
+        Input form text labels*/
+.fix_val_enter{
+    padding-left: 0px !important;
+    padding-top: 1.35em;
+    padding-bottom: 1em;
+}
+.fix_text_enter{
+    text-align: right;
+}
+.fix_val_col_text{
+    padding-left: 0px !important;
+    padding-top: 3.2em;
+    padding-bottom: 1em;
+}
+.fix_mar_p{
+    margin: 0 auto;
+}
+.blue_text{
+    color: #428BCA;
+    font-size: 1.3em;
+}
+.gray_text{
+    color: grey;
+    font-size: 1.3em;
+}
+/*End*/
+/*Begin
+        Input form value*/
+.fix_size{
+    height: 2.5em !important;
+}
+/*End*/
+.fix_input{
+    padding-top: 2.6em;
+    padding-bottom: 1em;
+}
+/*End*/
+hr{
+    border-color: darkslateblue !important;
+}
+.fix_text_calc{
+    line-height: 1.5em;
+    text-align: right;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+}
+.fix_sel{
+    padding-top: 1em;
+}
+.fix_text_calc_sm{
+    text-align: right;
+    padding-top: 1.5em;
+    padding-bottom: 1.4em;
+}
+.fix_sel_sm{
+    padding-top: 0.8em;
+}
+.fix_pad_lr{
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+.fix_cl{
+    padding-top: 0.2em;
+}
+.fix_height{
+    height: 3.2em;
+}
+.fix_pos_top{
+    padding-top: 0.8em;
+}
+.al_right{
+    text-align: right;
+    right: 0.5em;
+    float: right;
+}
+.al_left{
+    text-align: left;
+    left: 0.5em;
+    float: left;
+}
+.fix_text_f_val{
+    font-size: 2.3em;
+}
+.reg_fix{
+    line-height: 3.9em;
+}
+.fix_field{
+    height: 8em !important;
+    resize: none;
+}
+.reg_file_fix{
+    line-height: 3.2em
+}
+.text_2_line{
+    padding-left: 6em !important;
+    padding-right: 6em !important;
+}
+.text_2_line_b{
+    padding-left: 2.8em !important;
+    padding-right: 2.8em !important;
+}
+.grey_bg{
+    background-color: lightgray !important;
+    border-color: white !important;
+    border: solid #ffffff 1px !important;
+}
+.row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+.row_pad{
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+.fix_row_add{
+    padding-right: 20px !important;
+    padding-left: 20px !important;
+}
+.red_text{
+    color: red;
+}
+.btn_fix{
+    text-align: center;
+    padding-top: 2em;
+}
+.fix_text_manag{
+    padding-right: 9em;
+    padding-left: 9em;
+    padding-top: 1em;
+}
+.btn_order{
+    padding-top: 1em;
+    font-size: 2em !important;
+    width: 17.5em;
+}
+.fix_friend{
+    text-align: center;
+    font-weight: bold;
+    padding-top: 1em;
+    font-size: 1.2em;
+}
+.fix_pos{
+    text-align: center;
+    padding-top: 0.1em;
+    padding-bottom: 1.5em;
+}
+.input_reg_usr{
+    width: 27em !important;
+    height: 2.8em !important;
+}
+.emt_row{
+    height: 2em;
+}
+.field_reg_usr{
+    width: 27em !important;
+    height: 5em !important;
+}
+.f_upl{
+    height: 1.75em;
+}
+.center_serv {
+    padding-top: 2em;
+    vertical-align: middle;
+}
+.content_reg{
+    display: none;
+}
+
+/*.border_red{*/
+    /*border: solid 1px #B00100;*/
+/*}*/

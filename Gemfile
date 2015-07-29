@@ -1,5 +1,4 @@
 source 'https://rubygems.org'
-ruby '2.2.1'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.2'
@@ -15,18 +14,28 @@ group :production do
   gem 'rails_12factor', '0.0.3'
 end
 
-# Use SCSS for stylesheets
-gem 'sass-rails', '>=5.0'
-# Use Uglifier as compressor for JavaScript assets
-gem 'uglifier', '>= 2.7'
-# Use CoffeeScript for .coffee assets and views
-gem 'coffee-rails', '>= 4.0'
+# See more: https://rubygems.org/gems/therubyracer
+gem 'therubyracer', '~> 0.12.2'
+# See more: https://rubygems.org/gems/less-rails
+gem 'less-rails', '~> 2.7.0'
 # Use Twitter Bootstrap
-gem 'twitter-bootstrap-rails'
-# See https://github.com/rails/execjs#readme for more supported runtimes
-# gem 'therubyracer', platforms: :ruby
+# Use SCSS for stylesheets
+gem 'sass-rails', '~> 5.0.3'
+# Use CoffeeScript for .coffee assets and views
+gem 'coffee-rails', '~> 4.1.0'
+# Use Uglifier as compressor for JavaScript assets
+gem 'uglifier', '~> 2.7.1'
+# Use Bootstrap
+gem 'twitter-bootstrap-rails', '~> 3.2.0'
+
+gem 'autoprefixer-rails'
+
+gem 'bootstrap-sass', '~> 3.3.5.1'
+
 # Use Simple Form. See more: https://github.com/plataformatec/simple_form
-gem 'simple_form'
+#gem 'simple_form'
+#gem 'simple_form', '~> 3.1.0.rc1', github: 'plataformatec/simple_form', branch: 'master'
+
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
