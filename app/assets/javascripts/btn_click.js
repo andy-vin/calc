@@ -7,3 +7,4 @@ $(document).ready(function() {
         $('#fBtn').toggle('hide');
     });
 });
+

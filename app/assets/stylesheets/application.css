@@ -6,6 +6,8 @@
  *= require bootstrap.min
  *= require bootstrap_and_overrides
  *= require bootstrap-theme.min
+ *= require icons
+ *= require bootstrap-checkbox
  *= require_tree .
 */
 
@@ -206,3 +208,4 @@ hr{
 /*.border_red{*/
     /*border: solid 1px #B00100;*/
 /*}*/
+

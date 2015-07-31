@@ -16,4 +16,5 @@
 //= require twitter/bootstrap
 //= require bootstrap.min
 //= require turbolinks
+//= require bootstrap-checkbox
 //= require_tree .
