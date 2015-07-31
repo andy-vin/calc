@@ -81,7 +81,7 @@ label.bootstrap-checkbox.disabled{
 	*margin-right: .3em;
 	line-height: 14px;
 	vertical-align: text-top;
-	/*background-image: url("chb.png");*/
+	background-image: image-url("chb.png");
     background-position: 10px 10px;
 	background-repeat: no-repeat;
 }
