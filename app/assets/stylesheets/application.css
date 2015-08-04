@@ -8,6 +8,10 @@
  *= require bootstrap-theme.min
  *= require icons
  *= require bootstrap-checkbox
+ *= require selectric
+ *= require jquery.fileupload.css
+ *= require jquery.fileupload
+ *= require jquery.fileupload-ui
  *= require_tree .
 */
 
@@ -78,7 +82,7 @@ hr{
     border-color: darkslateblue !important;
 }
 .fix_text_calc{
-    line-height: 1.5em;
+    line-height: 1.9em;
     text-align: right;
     padding-top: 1.5em;
     padding-bottom: 1.5em;
@@ -88,7 +92,7 @@ hr{
 }
 .fix_text_calc_sm{
     text-align: right;
-    padding-top: 1.5em;
+    padding-top: 1.9em;
     padding-bottom: 1.4em;
 }
 .fix_sel_sm{
@@ -205,7 +209,24 @@ hr{
     display: none;
 }
 
-/*.border_red{*/
-    /*border: solid 1px #B00100;*/
-/*}*/
+.fix_18{
+    /*padding-left: 60px;*/
+    width: 18% !important;
+}
+.fix_27-5{
+width: 27.5% !important;
+}
+.fix_8{
+    width: 64.1667% !important;
+}
+.fix_30{
+    width: 30% !important;
+}
+.fix_36{
+    width: 36.6666% !important;
+}
 
+
+.border_red{
+    border: solid 1px #B00100;
+}

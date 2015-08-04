@@ -17,4 +17,6 @@
 //= require bootstrap.min
 //= require turbolinks
 //= require bootstrap-checkbox
+//= require jquery.selectric
+//= require btn_click
 //= require_tree .
