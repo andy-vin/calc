@@ -10,7 +10,6 @@ $font-size-label: 14px;
 $height-label-14: 30px;
 $bg-icon-pic: url("kb.png") no-repeat scroll 50% center;
 
-
 .selectric-wrapper {
   position: relative;
   cursor: pointer;
@@ -59,7 +58,7 @@ $bg-icon-pic: url("kb.png") no-repeat scroll 50% center;
     text-align: center;
     font: 0/0 a;
     *font: 20px/#{$inner-height} Lucida Sans Unicode, Arial Unicode MS, Arial;
-    background: $bg-icon-pic;
+//    background: $bg-icon-pic;
 
     &:after {
 //      content: " ";       fix for unstandart icon
