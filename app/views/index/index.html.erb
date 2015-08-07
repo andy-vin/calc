@@ -1,28 +1,28 @@
 <div class="content">
   <!--Render logo&title-->
   <div class="content_val">
-    <div class="row border_red">
-      <div class="col-md-2 block border_red row_pad"><%= image_tag("logo.png") %></div>
-      <div class="col-md-8 center border_red fix_get text-center"><%= image_tag("title.png") %></div>
-      <div class="col-md-2 get_consult border_red">
+    <div class="row">
+      <div class="col-md-2 block row_pad"><%= image_tag("logo.png") %></div>
+      <div class="col-md-8 center fix_get text-center"><%= image_tag("title.png") %></div>
+      <div class="col-md-2 get_consult">
         <p class="text-center fix_get"><a href="#">Получить консультацию</a></p>
       </div>
       <%= render partial: 'calc_values' %>
     </div>
   </div>
   <!--Horizontal line block-->
-  <div class="row border_red">
-    <div class="col-md-1 border_red"></div>
-    <div class="col-md-10 border_red"><hr></div>
-    <div class="col-md-1 border_red"></div>
+  <div class="row">
+    <div class="col-md-1"></div>
+    <div class="col-md-10"><hr></div>
+    <div class="col-md-1"></div>
   </div>
   <!--Render card calculator form-->
-  <div class="row border_red">
-    <div class="col-md-1 border_red"></div>
-    <div class="col-md-10 border_red fix_mar_p">
+  <div class="row">
+    <div class="col-md-1"></div>
+    <div class="col-md-10 fix_mar_p">
       <%= render partial: 'calc_form' %>
     </div>
-    <div class="col-md-1 border_red"></div>
+    <div class="col-md-1"></div>
   </div>
 
   <div class="emt_row"></div>

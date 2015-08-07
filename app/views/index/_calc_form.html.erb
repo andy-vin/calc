@@ -1,14 +1,14 @@
 <div class="row">
-  <div class="col-md-3 border_red fix_27-5"><p class="fix_text_calc fix_mar_p">пластик</p></div>
-  <div class="col-md-3 border_red fix_sel fix_18">
+  <div class="col-md-3 fix_27-5"><p class="fix_text_calc fix_mar_p">пластик</p></div>
+  <div class="col-md-3 fix_sel fix_18">
     <div class="form-group ">
       <%= form_for :calc_values, class: 'form-horizontal center' do |f| %>
           <%= f.select(:plastic, options_for_select(@plastic), {}, class: 'form-control', label: false) %>
       <% end %>
     </div>
   </div>
-  <div class="col-md-3 border_red"><p class="fix_text_calc fix_mar_p">поверхность карты</p></div>
-  <div class="col-md-3 border_red fix_sel fix_27-5">
+  <div class="col-md-3"><p class="fix_text_calc fix_mar_p">поверхность карты</p></div>
+  <div class="col-md-3 fix_sel fix_27-5">
     <div class="form-group">
       <%= form_for :calc_values, class: 'form-horizontal center' do |f| %>
           <%= f.select(:card_sur, options_for_select(@card_sur), {}, class: 'form-control', label: false) %>
@@ -17,16 +17,16 @@
   </div>
 </div>
 <div class="row">
-  <div class="col-md-3 border_red fix_27-5"><p class="fix_text_calc fix_mar_p">нумерация</p></div>
-  <div class="col-md-3 border_red fix_sel fix_18">
+  <div class="col-md-3 fix_27-5"><p class="fix_text_calc fix_mar_p">нумерация</p></div>
+  <div class="col-md-3 fix_sel fix_18">
     <div class="form-group">
       <%= form_for :calc_values, class: 'form-horizontal center' do |f| %>
           <%= f.select(:num, options_for_select(@num), {}, class: 'form-control', label: false) %>
       <% end %>
     </div>
   </div>
-  <div class="col-md-3 border_red"><p class="fix_text_calc fix_mar_p">цвет покрытия</p></div>
-  <div class="col-md-3 border_red fix_sel fix_27-5">
+  <div class="col-md-3 "><p class="fix_text_calc fix_mar_p">цвет покрытия</p></div>
+  <div class="col-md-3 fix_sel fix_27-5">
     <div class="form-group">
       <%= form_for :calc_values, class: 'form-horizontal center' do |f| %>
           <%= f.select(:color_sur, options_for_select(@color_sur), {}, class: 'form-control', label: false) %>
@@ -35,16 +35,16 @@
   </div>
 </div>
 <div class="row">
-  <div class="col-md-3 border_red fix_27-5"><p class="fix_text_calc fix_mar_p">штрих-код</p></div>
-  <div class="col-md-3 border_red fix_sel fix_18">
+  <div class="col-md-3 fix_27-5"><p class="fix_text_calc fix_mar_p">штрих-код</p></div>
+  <div class="col-md-3 fix_sel fix_18">
     <div class="form-group">
       <%= form_for :calc_values, class: 'form-horizontal center' do |f| %>
           <%= f.select(:code, options_for_select(@code), {}, class: 'form-control', label: false) %>
       <% end %>
     </div>
   </div>
-  <div class="col-md-3 border_red"><p class="fix_text_calc fix_mar_p">номера штрих-кода</p></div>
-  <div class="col-md-3 border_red fix_sel fix_27-5  ">
+  <div class="col-md-3 "><p class="fix_text_calc fix_mar_p">номера штрих-кода</p></div>
+  <div class="col-md-3 fix_sel fix_27-5  ">
     <div class="form-group">
       <%= form_for :calc_values, class: 'form-horizontal center' do |f| %>
           <%= f.select(:num_code, options_for_select(@num_code), {}, class: 'form-control', label: false) %>
@@ -54,17 +54,17 @@
 </div>
 <hr>
 <div class="row">
-  <div class="col-md-3 border_red fix_27-5"><p class="fix_text_calc fix_mar_p">магнитная полоса</p></div>
-  <div class="col-md-3 border_red fix_sel fix_18">
+  <div class="col-md-3 fix_27-5"><p class="fix_text_calc fix_mar_p">магнитная полоса</p></div>
+  <div class="col-md-3 fix_sel fix_18">
     <div class="form-group">
       <%= form_for :calc_values, class: 'form-horizontal center' do |f| %>
           <%= f.select(:band, options_for_select(@band), {}, class: 'form-control', label: false) %>
       <% end %>
     </div>
   </div>
-  <div class="col-md-3 border_red fix_pad_lr">
-    <div class="col-md-4 border_red"><p class="fix_mar_p fix_text_calc_sm">цвет</p></div>
-    <div class="col-md-8 border_red fix_sel_sm">
+  <div class="col-md-3 fix_pad_lr">
+    <div class="col-md-4 "><p class="fix_mar_p fix_text_calc_sm">цвет</p></div>
+    <div class="col-md-8 fix_sel_sm">
       <div class="form-group">
         <%= form_for :calc_values, class: 'form-horizontal center' do |f| %>
             <%= f.select(:band_col, options_for_select(@band_col), {}, class: 'form-control', label: false) %>
@@ -72,9 +72,9 @@
       </div>
     </div>
   </div>
-  <div class="col-md-3 border_red fix_pad_lr fix_27-5">
-    <div class="col-md-4 border_red"><p class="fix_mar_p fix_text_calc_sm">запись</p></div>
-    <div class="col-md-8 border_red fix_sel_sm">
+  <div class="col-md-3 fix_pad_lr fix_27-5">
+    <div class="col-md-4 "><p class="fix_mar_p fix_text_calc_sm">запись</p></div>
+    <div class="col-md-8 fix_sel_sm">
       <div class="form-group">
         <%= form_for :calc_values, class: 'form-horizontal center' do |f| %>
             <%= f.select(:band_rec, options_for_select(@band_rec), {}, class: 'form-control', label: false) %>
@@ -85,17 +85,17 @@
 </div>
 <hr>
 <div class="row">
-  <div class="col-md-3 border_red fix_27-5"><p class="fix_text_calc fix_mar_p">тиснение фольгой*</p></div>
-  <div class="col-md-3 border_red fix_sel fix_18">
+  <div class="col-md-3 fix_27-5"><p class="fix_text_calc fix_mar_p">тиснение фольгой*</p></div>
+  <div class="col-md-3 fix_sel fix_18">
     <div class="form-group">
       <%= form_for :calc_values, class: 'form-horizontal center' do |f| %>
           <%= f.select(:stamp, options_for_select(@stamp), {}, class: 'form-control', label: false) %>
       <% end %>
     </div>
   </div>
-  <div class="col-md-3 border_red fix_pad_lr">
-    <div class="col-md-4 border_red"><p class="fix_mar_p fix_text_calc_sm">цвет</p></div>
-    <div class="col-md-8 border_red fix_sel_sm">
+  <div class="col-md-3 fix_pad_lr">
+    <div class="col-md-4 "><p class="fix_mar_p fix_text_calc_sm">цвет</p></div>
+    <div class="col-md-8 fix_sel_sm">
       <div class="form-group">
         <%= form_for :calc_values, class: 'form-horizontal center' do |f| %>
             <%= f.select(:stamp_col, options_for_select(@stamp_color), {}, class: 'form-control', label: false) %>
@@ -103,22 +103,22 @@
       </div>
     </div>
   </div>
-  <div class="col-md-3 border_red fix_pad_lr fix_27-5">
+  <div class="col-md-3 fix_pad_lr fix_27-5">
     <p class="fix_mar_p fix_cl">без стоимости изготовления клише. Клише просчитывается индивидуально</p>
   </div>
 </div>
 <hr>
 <div class="row">
-  <div class="col-md-3 border_red fix_27-5"><p class="fix_text_calc fix_mar_p">скретч-панель</p></div>
-  <div class="col-md-3 border_red fix_sel fix_18">
+  <div class="col-md-3 fix_27-5"><p class="fix_text_calc fix_mar_p">скретч-панель</p></div>
+  <div class="col-md-3 fix_sel fix_18">
     <div class="form-group">
       <%= form_for :calc_values, class: 'form-horizontal center' do |f| %>
           <%= f.select(:sk_panel, options_for_select(@sk_panel), {}, class: 'form-control', label: false) %>
       <% end %>
     </div>
   </div>
-  <div class="col-md-3 border_red"><p class="fix_text_calc fix_mar_p">панель для подписи</p></div>
-  <div class="col-md-3 border_red fix_sel fix_27-5">
+  <div class="col-md-3 "><p class="fix_text_calc fix_mar_p">панель для подписи</p></div>
+  <div class="col-md-3 fix_sel fix_27-5">
     <div class="form-group">
       <%= form_for :calc_values, class: 'form-horizontal center' do |f| %>
           <%= f.select(:sign_panel, options_for_select(@sign_panel), {}, class: 'form-control', label: false) %>
@@ -127,41 +127,41 @@
   </div>
 </div>
 <div class="row">
-  <div class="col-md-3 border_red fix_27-5"><p class="fix_text_calc fix_mar_p">чип-модуль</p></div>
-  <div class="col-md-4 border_red fix_sel fix_18    ">
+  <div class="col-md-3 fix_27-5"><p class="fix_text_calc fix_mar_p">чип-модуль</p></div>
+  <div class="col-md-4 fix_sel fix_18    ">
     <div class="form-group">
       <%= form_for :calc_values, class: 'form-horizontal center' do |f| %>
           <%= f.select(:chip, options_for_select(@chip), {}, class: 'form-control', label: false) %>
       <% end %>
     </div>
   </div>
-  <div class="col-md-3 border_red"></div>
-  <div class="col-md-3 border_red"></div>
+  <div class="col-md-3"></div>
+  <div class="col-md-3"></div>
 </div>
 <hr>
 <div class="row">
-  <div class="col-md-8 border_red fix_8">
+  <div class="col-md-8 fix_8">
     <p class="fix_text_calc fix_mar_p">Печать фотографий и индивидуальный данных</p>
   </div>
-  <div class="col-md-3 border_red fix_sel fix_27-5">
+  <div class="col-md-3 fix_sel fix_27-5">
     <div class="form-group">
       <%= form_for :calc_values, class: 'form-horizontal center' do |f| %>
           <%= f.select(:ind_print, options_for_select(@ind_print), {}, class: 'form-control', label: false) %>
       <% end %>
     </div>
   </div>
-  <div class="col-md-1 border_red"></div>
+  <div class="col-md-1 "></div>
 </div>
 <hr>
 <div class="row">
-  <div class="col-md-5 border_red fix_height">
+  <div class="col-md-5 fix_height">
     <span class="al_right fix_val_text blue_text fix_pos_top">Стоимость тиража :</span>
   </div>
-  <div class="col-md-3 border_red fix_height"><span class="al_left fix_text_f_val">1236,00 грн</span></div>
-  <div class="col-md-4 border_red fix_height">
-      <div class="col-md-6 border_red"><span class="al_right">Стоимость карты</span></div>
-      <div class="col-md-6 border_red"><span class="al_left">1,236 грн</span></div>
-      <div class="col-md-6 border_red"><span class="al_right">Вес тиража :</span></div>
-      <div class="col-md-6 border_red"><span class="al_left">5,000 кг</span></div>
+  <div class="col-md-3 fix_height"><span class="al_left fix_text_f_val">1236,00 грн</span></div>
+  <div class="col-md-4 fix_height">
+      <div class="col-md-6 "><span class="al_right">Стоимость карты</span></div>
+      <div class="col-md-6 "><span class="al_left">1,236 грн</span></div>
+      <div class="col-md-6 "><span class="al_right">Вес тиража :</span></div>
+      <div class="col-md-6 "><span class="al_left">5,000 кг</span></div>
   </div>
 </div>

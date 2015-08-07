@@ -1,55 +1,55 @@
 <!--Begin "Your name's" row-->
 <div class="row">
-  <div class="col-md-2 border_red"></div>
-  <div class="col-md-2 border_red">
+  <div class="col-md-2"></div>
+  <div class="col-md-2">
     <p>
       <span class="al_right reg_fix">Ваше имя *</span>
     </p>
   </div>
-  <div class="col-md-4 border_red fix fix_36">
+  <div class="col-md-4 fix fix_36">
     <p>
       <%= form_for :calc_values, html: {class: 'form-horizontal center'} do |f| %>
           <%= f.text_field :card_count, class: 'form-control fix_size', label: false %>
       <% end %>
     </p>
   </div>
-  <div class="col-md-4 border_red fix_30"></div>
+  <div class="col-md-4 fix_30"></div>
 </div>
 <!--End-->
 <!--Begin "E-mail" row-->
 <div class="row">
-  <div class="col-md-2 border_red"></div>
-  <div class="col-md-2 border_red">
+  <div class="col-md-2"></div>
+  <div class="col-md-2">
     <p>
       <span class="al_right reg_fix">E-mail *</span>
     </p>
   </div>
-  <div class="col-md-4 border_red fix_36">
+  <div class="col-md-4 fix_36">
     <p>
       <%= form_for :calc_values, html: {class: 'form-horizontal center'} do |f| %>
           <%= f.text_field :card_count, class: 'form-control fix_size', label: false %>
       <% end %>
     </p>
   </div>
-  <div class="col-md-4 border_red fix_30"></div>
+  <div class="col-md-4 fix_30"></div>
 </div>
 <!--End-->
 <!--Begin "Phone" row-->
 <div class="row">
-  <div class="col-md-2 border_red"></div>
-  <div class="col-md-2 border_red">
+  <div class="col-md-2"></div>
+  <div class="col-md-2">
     <p>
       <span class="al_right reg_fix">Телефон *</span>
     </p>
   </div>
-  <div class="col-md-4 border_red fix_36">
+  <div class="col-md-4 fix_36">
     <p>
       <%= form_for :calc_values, html: {class: 'form-horizontal center'} do |f| %>
           <%= f.text_field :card_count, class: 'form-control fix_size', label: false %>
       <% end %>
     </p>
   </div>
-  <div class="col-md-4 border_red fix_30"></div>
+  <div class="col-md-4 fix_30"></div>
 </div>
 <!--End-->
 <!--Begin empty row. See more: application.css-->
@@ -57,64 +57,64 @@
 <!--End-->
 <!--Begin "Your town's" row-->
 <div class="row">
-  <div class="col-md-2 border_red"></div>
-  <div class="col-md-2 border_red">
+  <div class="col-md-2"></div>
+  <div class="col-md-2">
     <p>
       <span class="al_right reg_fix">Ваш город</span>
     </p>
   </div>
-  <div class="col-md-4 border_red fix fix_36">
+  <div class="col-md-4 fix fix_36">
     <p>
       <%= form_for :calc_values, html: {class: 'form-horizontal center'} do |f| %>
           <%= f.text_field :card_count, class: 'form-control fix_size', label: false %>
       <% end %>
     </p>
   </div>
-  <div class="col-md-4 border_red fix_30"></div>
+  <div class="col-md-4 fix_30"></div>
 </div>
 <!--End-->
 <!--Begin "Company" row-->
 <div class="row">
-  <div class="col-md-2 border_red"></div>
-  <div class="col-md-2 border_red">
+  <div class="col-md-2"></div>
+  <div class="col-md-2">
     <p>
       <span class="al_right reg_fix">Компания</span>
     </p>
   </div>
-  <div class="col-md-4 border_red fix fix_36">
+  <div class="col-md-4 fix fix_36">
     <p>
       <%= form_for :calc_values, html: {class: 'form-horizontal center'} do |f| %>
           <%= f.text_field :card_count, class: 'form-control fix_size', label: false %>
       <% end %>
     </p>
   </div>
-  <div class="col-md-4 border_red fix_30"></div>
+  <div class="col-md-4 fix_30"></div>
 </div>
 <!--End-->
 <!--Begin "Comment" row (as textarea)-->
 <div class="row">
-  <div class="col-md-2 border_red"></div>
-  <div class="col-md-2 border_red">
+  <div class="col-md-2"></div>
+  <div class="col-md-2">
     <p>
       <span class="al_right reg_fix">Комментарий</span>
     </p>
   </div>
-  <div class="col-md-4 border_red fix_36">
+  <div class="col-md-4 fix_36">
     <p>
       <%= form_for :calc_values, html: {class: 'form-horizontal center'} do |f| %>
           <%= f.text_area :card_count, as: :text, class: 'form-control fix_field', rows:5, cols: '100%', label: false %>
       <% end %>
     </p>
   </div>
-  <div class="col-md-4 border_red fix_30"></div>
+  <div class="col-md-4 fix_30"></div>
 </div>
 <!--End-->
 <!--Begin "Add file" row-->
 <div class="row">
-  <div class="col-md-4 border_red"></div>
-  <div class="col-md-4 border_red fix fix_36">
-    <div class="col-md-5 border_red reg_file_fix al_right">Прикрепить макет</div>
-    <div class="col-md-7 border_red al_left">
+  <div class="col-md-4"></div>
+  <div class="col-md-4 fix fix_36">
+    <div class="col-md-5 reg_file_fix al_right">Прикрепить макет</div>
+    <div class="col-md-7 al_left">
       <p>
         <%= form_for :calc_values, html: { multipart: true }  do |f| %>
             <%= f.file_field :card_count, label: false %>
@@ -122,7 +122,7 @@
       </p>
     </div>
   </div>
-  <div class="col-md-4 border_red fix_30"></div>
+  <div class="col-md-4 fix_30"></div>
 </div>
 <!--End-->
 <!--Begin "Another servises" row-->
@@ -130,36 +130,36 @@
     <p class="blue_text center_serv">Можно ли Вам предложить</p>
 </div>
 <div class="row fix_row_add">
-  <div class="col-md-3 border_red grey_bg">
-    <div class="col-md-12 border_red text-center text_2_line">Дизайнерские услуги</div>
-    <div class="col-md-12 border_red text-center">
+  <div class="col-md-3 grey_bg">
+    <div class="col-md-12 text-center text_2_line">Дизайнерские услуги</div>
+    <div class="col-md-12 text-center">
       <div class="form-inline">
         <%= label_tag :checkbox, 'Предложить', class: 'red_text' %>
         <%= check_box_tag('name', 'value', false, class: 'checkbox') %>
       </div>
     </div>
   </div>
-  <div class="col-md-3 border_red grey_bg">
-    <div class="col-md-12 border_red text-center text_2_line">Индивидуальную упаковку карт</div>
-    <div class="col-md-12 border_red text-center">
+  <div class="col-md-3 grey_bg">
+    <div class="col-md-12 text-center text_2_line">Индивидуальную упаковку карт</div>
+    <div class="col-md-12 text-center">
       <div class="form-inline">
         <%= label_tag :checkbox, 'Предложить', class: 'red_text' %>
         <%= check_box_tag('name', 'value', false, class: 'checkbox') %>
       </div>
     </div>
   </div>
-  <div class="col-md-3 border_red grey_bg">
-    <div class="col-md-12 border_red text-center text_2_line_b">Сопутствующую полиграфию (анкеты, каталоги и пр)</div>
-    <div class="col-md-12 border_red text-center">
+  <div class="col-md-3 grey_bg">
+    <div class="col-md-12 text-center text_2_line_b">Сопутствующую полиграфию (анкеты, каталоги и пр)</div>
+    <div class="col-md-12 text-center">
       <div class="form-inline">
         <%= label_tag :checkbox, 'Предложить', class: 'red_text' %>
         <%= check_box_tag('name', 'value', false, class: 'checkbox') %>
       </div>
     </div>
   </div>
-  <div class="col-md-3 border_red grey_bg">
-    <div class="col-md-12 border_red text-center text_2_line_b">Оборудование для считывания карт</div>
-    <div class="col-md-12 border_red text-center">
+  <div class="col-md-3 grey_bg">
+    <div class="col-md-12 text-center text_2_line_b">Оборудование для считывания карт</div>
+    <div class="col-md-12 text-center">
       <div class="form-inline">
 
         <%= form_for :calc_values do |f| %>

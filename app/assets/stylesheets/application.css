@@ -9,9 +9,6 @@
  *= require icons
  *= require bootstrap-checkbox
  *= require selectric
- *= require jquery.fileupload.css
- *= require jquery.fileupload
- *= require jquery.fileupload-ui
  *= require_tree .
 */
 
@@ -224,9 +221,4 @@ width: 27.5% !important;
 }
 .fix_36{
     width: 36.6666% !important;
-}
-
-
-.border_red{
-    border: solid 1px #B00100;
 }
