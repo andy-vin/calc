@@ -29,8 +29,6 @@ gem 'uglifier', '~> 2.7.1'
 # Use Bootstrap
 gem 'twitter-bootstrap-rails', '~> 3.2.0'
 
-gem 'autoprefixer-rails'
-
 gem 'bootstrap-sass', '~> 3.3.5.1'
 
 # Use Simple Form. See more: https://github.com/plataformatec/simple_form
