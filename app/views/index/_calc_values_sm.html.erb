@@ -1,0 +1,22 @@
+<div class="col-xs-12 visible-sm mar-top-xs fix_val_enter fix_pad_tb fix_pad_lr br_red">
+  <div class="fix-pad-mar">
+
+    <div class="col-sm-6 br_red">
+      <p class="fix_mar_p fix_text_enter gray_text br_red">Введите интересующий Вас</p>
+      <p class="fix_r_pad_xs fix_mar_p fix_text_enter blue_text br_red">тираж карточек</p>
+    </div>
+    <div class="col-sm-4 pad_lr_fix br_red">
+      <div class="fix_input br_red">
+        <div class="controls">
+          <%= form_for :calc_values, html: {class: 'form-horizontal center'} do |f| %>
+              <%= f.text_field :card_count, class: 'form-control fix_size', label: false %>
+          <% end %>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-2 br_red">
+      <p class="mar-nbsp">&nbsp;</p>
+      <p class="fix_r_pad_xs fix_mar_p fix_text_enter fix_text_enter_sm blue_text br_red">штук</p>
+    </div>
+  </div>
+</div>

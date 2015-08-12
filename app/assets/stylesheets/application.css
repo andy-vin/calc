@@ -1,0 +1,513 @@
+/*
+ * This is a manifest file that'll automatically include all the stylesheets available in this directory
+ * and any sub-directories. You're free to add application-wide styles to this file and they'll appear at
+ * the top of the compiled file, but it's generally better to create a new file per style scope.
+ *= require_self
+ *= require bootstrap.min
+ *= require bootstrap_and_overrides
+ *= require bootstrap-theme.min
+ *= require icons
+ *= require bootstrap-checkbox
+ *= require selectric
+ *= require_tree .
+*/
+
+@font-face {
+    font-family: 'Glyphicons Halflings';
+    src: url('../assets/glyphicons-halflings-regular.eot');
+    src: url('../assets/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'),
+    url('../assets/glyphicons-halflings-regular.woff') format('woff'),
+    url('../assets/glyphicons-halflings-regular.ttf') format('truetype'),
+    url('../assets/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+}
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+    body {
+        max-width: 980px;
+        margin: auto !important;
+    }
+
+    /*Begin
+        Get consult block*/
+    .fix_get {
+        line-height: 3em;
+        margin: 0 auto;
+    }
+
+    .fix_get > a:hover, a:focus {
+        text-decoration: none !important;
+        color: #B9520E !important;
+        font-weight: bold;
+        line-height: 3em;
+    }
+
+    .fix_get > a { color: #B9520E !important; }
+
+    .get_consult { text-align: right; }
+
+    .get_consult > p { line-height: 3em; }
+    /*End*/
+
+    .title-logo { line-height: 3em; }
+
+    .fix_pad_lr {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    .fix_pad_tb {
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+    }
+
+    .fix-pad-mar {
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+
+    /*Begin
+        Input form value*/
+    .fix_size { height: 2.5em !important; }
+    /*End*/
+
+    .fix_input {
+        padding-top: 0.6em;
+        padding-bottom: 0.6em;
+    }
+
+    .fix-count-poz { text-align: left; }
+    /*End*/
+
+    /*Selectric labal Fix
+    Begin*/
+    .selectric .label {
+        font-size: 12px !important;
+        margin: 2px 23px 0 5px !important;
+    }
+    /*End*/
+    .al_right { text-align: right; }
+
+    .text_2_line {
+        padding-left: 3em !important;
+        padding-right: 3em !important;
+    }
+
+    .text_2_line_b {
+        padding-left: 0.35em !important;
+        padding-right: 0.35em !important;
+    }
+
+    .fix_18 { width: 18% !important; }
+
+    .fix_27-5 { width: 27.5% !important; }
+
+    .fix_8 { width: 64.1667% !important; }
+
+    .btn_order {
+        padding-top: 1em;
+        font-size: 2em !important;
+        width: 70%;
+    }
+
+    .fix_36 { width: 36.6666% !important; }
+
+    .center_serv {
+        padding-top: 2em;
+        vertical-align: middle;
+    }
+
+    .fix_text_manag {
+        padding-right: 9em;
+        padding-left: 9em;
+        padding-top: 1em;
+    }
+
+    dl { margin-bottom: 0 !important; }
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+    body {
+        max-width: 980px;
+        margin: auto !important;
+    }
+
+    /*Begin
+        Get consult block*/
+    .fix_get {
+        line-height: 3em;
+        margin: 0 auto;
+
+    }
+
+    .fix_get > a:hover, a:focus {
+        text-decoration: none !important;
+        color: #B9520E !important;
+        font-weight: bold;
+        line-height: 3em;
+    }
+
+    .fix_get > a { color: #B9520E !important; }
+
+    .get_consult { text-align: right; }
+
+    .get_consult > p { line-height: 3em; }
+    /*End*/
+
+    .title-logo { line-height: 3em; }
+
+    .fix_pad_lr {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    .fix_pad_tb {
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+    }
+
+    .fix-pad-mar {
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    /*Begin
+        Input form value*/
+    .fix_size { height: 2.5em !important; }
+    /*End*/
+
+    .fix_input {
+        padding-top: 0.6em;
+        padding-bottom: 0.6em;
+    }
+
+    .fix-count-poz { text-align: left; }
+    /*End*/
+
+    /*Selectric labal Fix
+    Begin*/
+    .selectric .label {
+        font-size: 12px !important;
+        margin: 2px 23px 0 5px !important;
+    }
+    /*End*/
+    .al_right { text-align: right; }
+
+    .text_2_line {
+        padding-left: 3em !important;
+        padding-right: 3em !important;
+    }
+
+    .text_2_line_b {
+        padding-left: 0.35em !important;
+        padding-right: 0.35em !important;
+    }
+
+    .fix_18 { width: 18% !important; }
+
+    .fix_27-5 { width: 27.5% !important; }
+
+    .fix_8 { width: 64.1667% !important; }
+
+    .btn_order {
+        padding-top: 1em;
+        font-size: 2em !important;
+        width: 70%;
+    }
+
+    .fix_36 { width: 36.6666% !important; }
+
+    .center_serv {
+        padding-top: 2em;
+        vertical-align: middle;
+    }
+
+    .fix_text_manag {
+        padding-right: 9em;
+        padding-left: 9em;
+        padding-top: 1em;
+    }
+
+    dl { margin-bottom: 0 !important; }
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+    body {
+        max-width: 980px;
+        margin: auto !important;
+    }
+
+    .fix_get > a:hover, a:focus {
+        text-decoration: none !important;
+        color: #B9520E !important;
+        font-weight: bold;
+    }
+
+    .fix_get > a { color: #B9520E !important; }
+
+    .get_consult {
+        text-align: right;
+    }
+
+    .get_consult > p { line-height: 3em; }
+
+    .pad-xs-fix {
+        padding-top: 3.08em;
+        padding-bottom: 3.08em;
+    }
+
+    .fix_input { padding-top: 1.2em; }
+
+    .pad_lr_fix {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    .fix_text_enter_sm { text-align: left !important; }
+
+    .mar-nbsp { margin: 0; }
+
+    .btn_order {
+        padding-top: 1em;
+        font-size: 2em !important;
+        width: 70%;
+    }
+
+    .pad_fix_xs {
+        padding-left: 5px !important;
+        padding-right: 5px !important;
+    }
+
+    dl { margin: 0 !important; }
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+    body {
+        max-width: 100%;
+        margin: auto !important;
+    }
+
+    .mar-top-xs { margin-top: 10px; }
+
+    .fix_r_pad_xs {
+        padding-right: 0 !important;
+        padding-top: 5px;
+        padding-bottom: 4px;
+    }
+
+    .fix_get > a:hover, a:focus {
+        text-decoration: none !important;
+        color: #B9520E !important;
+        font-weight: bold;
+    }
+
+    .fix_get > a { color: #B9520E !important; }
+
+    .get_consult { text-align: right; }
+
+    .get_consult > p { line-height: 3em; }
+
+    .pad-xs-fix {
+        padding-top: 2em;
+        padding-bottom: 2em;
+    }
+
+    .fix_pad_lr {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    .fix_pad_tb {
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+    }
+
+    dl { margin-bottom: 0 !important; }
+
+    .fix_text_enter { text-align: left !important; }
+
+    .xs-width { width: 50% !important; }
+
+    .btn_order {
+        padding-top: 1em;
+        font-size: 2em !important;
+        width: 70%;
+    }
+
+    .fix_36 { width: 66.66666667% !important; }
+
+    .center_serv {
+        padding-top: 1em;
+        vertical-align: middle;
+    }
+
+    .text_2_line {
+        padding-left: 3em !important;
+        padding-right: 3em !important;
+    }
+
+    .text_2_line_b {
+        padding-left: .35em !important;
+        padding-right: .35em !important;
+    }
+
+    .pad_fix_xs {
+        padding-left: 5px !important;
+        padding-right: 5px !important;
+    }
+
+    .fix_text_manag {
+        padding-right: 5px;
+        padding-left: 5px;
+        padding-top: 1em;
+    }
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+    body {
+        max-width: 100%;
+        margin: auto !important;
+    }
+}
+
+/*Begin
+        Input form text labels*/
+.fix_val_enter {
+    padding-left: 0px !important;
+    padding-top: 1.35em;
+    padding-bottom: 1em;
+}
+
+.fix_text_enter { text-align: right; }
+
+.fix_val_col_text {
+    padding-left: 0px !important;
+    padding-top: 3.2em;
+    padding-bottom: 1em;
+}
+
+.fix_mar_p { margin: 0 auto; }
+
+.blue_text {
+    color: #428BCA;
+    font-size: 1.3em;
+}
+
+.gray_text {
+    color: grey;
+    font-size: 1.3em;
+}
+/*End*/
+
+hr { border-color: darkslateblue !important; }
+
+.fix_text_calc {
+    line-height: 1.9em;
+    text-align: right;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+}
+
+.fix_sel { padding-top: 1em; }
+
+.fix_text_calc_sm {
+    text-align: right;
+    padding-top: 1.9em;
+    padding-bottom: 1.4em;
+}
+.fix_sel_sm { padding-top: 0.8em; }
+
+.fix_pad_lr {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+.fix_cl { padding-top: 0.2em; }
+
+.fix_height { height: 3.2em; }
+
+.fix_pos_top { padding-top: 0.8em; }
+
+.al_left {
+    text-align: left;
+    left: 0.5em;
+    float: left;
+}
+
+.fix_text_f_val { font-size: 2.3em; }
+
+.reg_fix { line-height: 3.9em; }
+
+.fix_field {
+    height: 8em !important;
+    resize: none;
+}
+
+.reg_file_fix { line-height: 3.2em; }
+
+.grey_bg {
+    background-color: lightgray !important;
+    border-color: white !important;
+    border: solid #ffffff 1px !important;
+}
+
+.row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.row_pad {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+.fix_row_add {
+    padding-right: 20px !important;
+    padding-left: 20px !important;
+}
+
+.red_text { color: red; }
+
+.btn_fix {
+    text-align: center;
+    padding-top: 2em;
+}
+
+.fix_friend {
+    text-align: center;
+    font-weight: bold;
+    padding-top: 1em;
+    font-size: 1.2em;
+}
+
+.fix_pos {
+    text-align: center;
+    padding-top: 0.1em;
+    padding-bottom: 1.5em;
+}
+
+.input_reg_usr {
+    width: 27em !important;
+    height: 2.8em !important;
+}
+
+.emt_row { height: 2em; }
+
+.field_reg_usr {
+    width: 27em !important;
+    height: 5em !important;
+}
+
+.f_upl { height: 1.75em; }
+
+.content_reg { display: none; }
+
+.fix_30 { width: 30% !important; }
+
+
+/*.br_red {*/
+    /*border: solid 1px red;*/
+/*}*/

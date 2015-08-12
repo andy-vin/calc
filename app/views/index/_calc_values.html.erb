@@ -1,14 +1,19 @@
-<div class="col-md-5 fix_val_enter">
-  <p class="fix_mar_p fix_text_enter gray_text">Введите интересующий Вас</p>
-  <p class="fix_mar_p fix_text_enter blue_text">тираж карточек</p>
+<div class="col-md-5 col-xs-12 mar-top-xs fix_val_enter fix_pad_tb fix_pad_lr br_red">
+  <dl class="fix-pad-mar">
+    <dd class="fix_mar_p fix_text_enter gray_text br_red">Введите интересующий Вас</dd>
+    <dd class="fix_mar_p fix_text_enter blue_text br_red">тираж карточек</dd>
+  </dl>
 </div>
-<div class="col-md-3 fix_input">
+<div class="col-md-5 col-xs-6 fix_input br_red">
   <div class="controls">
     <%= form_for :calc_values, html: {class: 'form-horizontal center'} do |f| %>
         <%= f.text_field :card_count, class: 'form-control fix_size', label: false %>
     <% end %>
   </div>
 </div>
-<div class="col-md-2 fix_val_col_text">
-  <p class="fix_mar_p blue_text">штук</p>
+<div class="col-md-2 col-xs-6 fix-pad-mar br_red">
+  <dl class="fix-pad-mar">
+    <dd class="fix_mar_p br_red hidden-xs">&nbsp;</dt>
+    <dd class="fix_mar_p fix-count-poz blue_text br_red">штук</dd>
+  </dl>
 </div>

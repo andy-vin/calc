@@ -1,55 +1,55 @@
 <!--Begin "Your name's" row-->
 <div class="row">
-  <div class="col-md-2"></div>
-  <div class="col-md-2">
+  <div class="col-md-3"></div>
+  <div class="col-md-2 col-xs-4 br_red">
     <p>
       <span class="al_right reg_fix">Ваше имя *</span>
     </p>
   </div>
-  <div class="col-md-4 fix fix_36">
+  <div class="col-md-4 col-xs-8 fix fix_36 br_red">
     <p>
       <%= form_for :calc_values, html: {class: 'form-horizontal center'} do |f| %>
           <%= f.text_field :card_count, class: 'form-control fix_size', label: false %>
       <% end %>
     </p>
   </div>
-  <div class="col-md-4 fix_30"></div>
+  <div class="col-md-3 fix_30"></div>
 </div>
 <!--End-->
 <!--Begin "E-mail" row-->
 <div class="row">
-  <div class="col-md-2"></div>
-  <div class="col-md-2">
+  <div class="col-md-3"></div>
+  <div class="col-md-2 col-xs-4 br_red">
     <p>
       <span class="al_right reg_fix">E-mail *</span>
     </p>
   </div>
-  <div class="col-md-4 fix_36">
+  <div class="col-md-4 col-xs-8 fix_36 br_red">
     <p>
       <%= form_for :calc_values, html: {class: 'form-horizontal center'} do |f| %>
           <%= f.text_field :card_count, class: 'form-control fix_size', label: false %>
       <% end %>
     </p>
   </div>
-  <div class="col-md-4 fix_30"></div>
+  <div class="col-md-3 fix_30"></div>
 </div>
 <!--End-->
 <!--Begin "Phone" row-->
 <div class="row">
-  <div class="col-md-2"></div>
-  <div class="col-md-2">
+  <div class="col-md-3"></div>
+  <div class="col-md-2 col-xs-4 br_red">
     <p>
       <span class="al_right reg_fix">Телефон *</span>
     </p>
   </div>
-  <div class="col-md-4 fix_36">
+  <div class="col-md-4 col-xs-8 fix_36 br_red">
     <p>
       <%= form_for :calc_values, html: {class: 'form-horizontal center'} do |f| %>
           <%= f.text_field :card_count, class: 'form-control fix_size', label: false %>
       <% end %>
     </p>
   </div>
-  <div class="col-md-4 fix_30"></div>
+  <div class="col-md-3 fix_30"></div>
 </div>
 <!--End-->
 <!--Begin empty row. See more: application.css-->
@@ -57,70 +57,86 @@
 <!--End-->
 <!--Begin "Your town's" row-->
 <div class="row">
-  <div class="col-md-2"></div>
-  <div class="col-md-2">
+  <div class="col-md-3"></div>
+  <div class="col-md-2 col-xs-4 br_red">
     <p>
       <span class="al_right reg_fix">Ваш город</span>
     </p>
   </div>
-  <div class="col-md-4 fix fix_36">
+  <div class="col-md-4 col-xs-8 fix fix_36 br_red">
     <p>
       <%= form_for :calc_values, html: {class: 'form-horizontal center'} do |f| %>
           <%= f.text_field :card_count, class: 'form-control fix_size', label: false %>
       <% end %>
     </p>
   </div>
-  <div class="col-md-4 fix_30"></div>
+  <div class="col-md-3 fix_30"></div>
 </div>
 <!--End-->
 <!--Begin "Company" row-->
 <div class="row">
-  <div class="col-md-2"></div>
-  <div class="col-md-2">
+  <div class="col-md-3"></div>
+  <div class="col-md-2 col-xs-4 br_red">
     <p>
       <span class="al_right reg_fix">Компания</span>
     </p>
   </div>
-  <div class="col-md-4 fix fix_36">
+  <div class="col-md-4 col-xs-8 fix fix_36 br_red">
     <p>
       <%= form_for :calc_values, html: {class: 'form-horizontal center'} do |f| %>
           <%= f.text_field :card_count, class: 'form-control fix_size', label: false %>
       <% end %>
     </p>
   </div>
-  <div class="col-md-4 fix_30"></div>
+  <div class="col-md-3 fix_30"></div>
 </div>
 <!--End-->
 <!--Begin "Comment" row (as textarea)-->
 <div class="row">
-  <div class="col-md-2"></div>
-  <div class="col-md-2">
+  <div class="col-md-3"></div>
+  <div class="col-md-2 col-xs-4 br_red">
     <p>
       <span class="al_right reg_fix">Комментарий</span>
     </p>
   </div>
-  <div class="col-md-4 fix_36">
+  <div class="col-md-4 col-xs-8 fix_36 br_red">
     <p>
       <%= form_for :calc_values, html: {class: 'form-horizontal center'} do |f| %>
           <%= f.text_area :card_count, as: :text, class: 'form-control fix_field', rows:5, cols: '100%', label: false %>
       <% end %>
     </p>
   </div>
-  <div class="col-md-4 fix_30"></div>
+  <div class="col-md-3 fix_30"></div>
 </div>
 <!--End-->
 <!--Begin "Add file" row-->
-<div class="row">
-  <div class="col-md-4"></div>
-  <div class="col-md-4 fix fix_36">
-    <div class="col-md-5 reg_file_fix al_right">Прикрепить макет</div>
-    <div class="col-md-7 al_left">
+<div class="row hidden-xs">
+  <div class="col-md-5 col-sm-4 col-sm-4"></div>
+  <div class="col-md-4 fix_36 fix-pad-mar br_red">
+    <div class="col-md-6 col-xs-4 col-sm-4 reg_file_fix al_right fix-pad-mar br_red">Прикрепить макет</div>
+    <div class="col-md-6 col-xs-4 col-sm-4 al_left br_red">
       <p>
         <%= form_for :calc_values, html: { multipart: true }  do |f| %>
             <%= f.file_field :card_count, label: false %>
         <% end %>
       </p>
     </div>
+  </div>
+  <div class="col-md-3 fix_30"></div>
+</div>
+<div class="row visible-xs">
+  <div class="col-md-2"></div>
+  <div class="col-md-2 col-xs-4 br_red">
+    <p>
+      <span class="al_right reg_fix">Прикрепить макет</span>
+    </p>
+  </div>
+  <div class="col-md-4 col-xs-8 fix_36 br_red">
+    <p>
+      <%= form_for :calc_values, html: { multipart: true }  do |f| %>
+          <%= f.file_field :card_count, label: false %>
+      <% end %>
+    </p>
   </div>
   <div class="col-md-4 fix_30"></div>
 </div>
@@ -129,9 +145,12 @@
 <div class="row text-center">
     <p class="blue_text center_serv">Можно ли Вам предложить</p>
 </div>
-<div class="row fix_row_add">
-  <div class="col-md-3 grey_bg">
-    <div class="col-md-12 text-center text_2_line">Дизайнерские услуги</div>
+<div class="row fix_row_add fix-pad-mar">
+  <div class="col-md-3 grey_bg col-xs-6 col-sm-3 br_red">
+    <dl class="">
+      <dd class="text-center">Дизайнерские</dd>
+      <dd class="text-center">услуги</dd>
+    </dl>
     <div class="col-md-12 text-center">
       <div class="form-inline">
         <%= label_tag :checkbox, 'Предложить', class: 'red_text' %>
@@ -139,8 +158,11 @@
       </div>
     </div>
   </div>
-  <div class="col-md-3 grey_bg">
-    <div class="col-md-12 text-center text_2_line">Индивидуальную упаковку карт</div>
+  <div class="col-md-3 grey_bg col-xs-6 col-sm-3 br_red">
+    <dl class="">
+      <dd class="text-center">Индивидуальную</dd>
+      <dd class="text-center">упаковку карт</dd>
+    </dl>
     <div class="col-md-12 text-center">
       <div class="form-inline">
         <%= label_tag :checkbox, 'Предложить', class: 'red_text' %>
@@ -148,8 +170,11 @@
       </div>
     </div>
   </div>
-  <div class="col-md-3 grey_bg">
-    <div class="col-md-12 text-center text_2_line_b">Сопутствующую полиграфию (анкеты, каталоги и пр)</div>
+  <div class="col-md-3 grey_bg col-xs-6 col-sm-3 pad_fix_xs br_red">
+    <dl class="">
+      <dd class="text-center">Сопутствующую полиграфию</dd>
+      <dd class="text-center">(анкеты, каталоги и пр)</dd>
+    </dl>
     <div class="col-md-12 text-center">
       <div class="form-inline">
         <%= label_tag :checkbox, 'Предложить', class: 'red_text' %>
@@ -157,20 +182,17 @@
       </div>
     </div>
   </div>
-  <div class="col-md-3 grey_bg">
-    <div class="col-md-12 text-center text_2_line_b">Оборудование для считывания карт</div>
+  <div class="col-md-3 grey_bg col-xs-6 col-sm-3 br_red">
+    <dl class="">
+      <dd class="text-center">Оборудование для</dd>
+      <dd class="text-center">считывания карт</dd>
+    </dl>
     <div class="col-md-12 text-center">
       <div class="form-inline">
-
         <%= form_for :calc_values do |f| %>
-
-
               <%= f.label :checkbox, 'Предложить', class: 'red_text ckbText' %>
-
               <%= f.check_box :send_text, {class: 'checkbox bootstrap-checkbox'}, true, false %>
-
         <% end%>
-        <!--<img src='<%= asset_path 'k0.png' %>'>-->
       </div>
     </div>
   </div>

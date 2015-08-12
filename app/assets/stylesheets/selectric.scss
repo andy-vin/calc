@@ -47,6 +47,15 @@ $bg-icon-pic: url("kb.png") no-repeat scroll 50% center;
     font-weight: normal;
   }
 
+  .selectric .label {
+    margin: 0 25px 0 5px;
+    font-size: 12px;
+    line-height: 30px;
+    color: #444;
+    height: 38px;
+    font-weight: normal;
+  }
+
   .button {
     display: block;
     position: absolute;
